@@ -220,8 +220,8 @@ svg {
   content: url('images/bg-tablet-pattern.svg');
   position: absolute;
   z-index: -1;
-  left: 53%;
-  bottom: 67%;
+  left: 28%;
+  bottom: 65%;
   width: 100px;
   transform: scale(0.4);
   aspect-ratio: 1;
