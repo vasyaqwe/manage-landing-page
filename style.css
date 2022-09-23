@@ -85,6 +85,10 @@ body {
   overflow-x: hidden;
 }
 
+main {
+  overflow-x: hidden;
+}
+
 /* A elements that don't have a class get default styles */
 a:not([class]) {
   text-decoration-skip-ink: auto;
@@ -214,14 +218,15 @@ svg {
 
 .different {
   position: relative;
+
 }
 
 .different::before {
   content: url('images/bg-tablet-pattern.svg');
   position: absolute;
   z-index: -1;
-  left: 30px;
-  bottom: 65%;
+  left: 150px;
+  bottom: 66%;
   width: 100px;
   transform: scale(0.4);
   aspect-ratio: 1;
